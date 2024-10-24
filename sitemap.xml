@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://dadesso.cloudns.ch/index.html</loc>
-    <lastmod>2024-14-24</lastmod>
+    <lastmod>2024-10-24</lastmod>  <!-- Corrected date -->
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -24,7 +24,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- Ajoutez d'autres URLs ici comme compétences.html, contact.html, etc. -->
   <url>
     <loc>https://dadesso.cloudns.ch/competences.html</loc>
     <lastmod>2024-10-24</lastmod>
