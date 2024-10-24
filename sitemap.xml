@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://dadesso-cybersecurity.cloudns.ch/</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://dadesso.cloudns.ch/</loc>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://dadesso-cybersecurity.cloudns.ch/index.html</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://dadesso.cloudns.ch/index.html</loc>
+    <lastmod>2024-14-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://dadesso-cybersecurity.cloudns.ch/projets.html</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://dadesso.cloudns.ch/projets.html</loc>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://dadesso-cybersecurity.cloudns.ch/blog.html</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://dadesso.cloudns.ch/blog.html</loc>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Ajoutez d'autres URLs ici comme compétences.html, contact.html, etc. -->
   <url>
-    <loc>http://dadesso-cybersecurity.cloudns.ch/competences.html</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://dadesso.cloudns.ch/competences.html</loc>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://dadesso-cybersecurity.cloudns.ch/contact.html</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://dadesso.cloudns.ch/contact.html</loc>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://dadesso-cybersecurity.cloudns.ch/avis.html</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://dadesso.cloudns.ch/avis.html</loc>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://dadesso-cybersecurity.cloudns.ch/apropos.html</loc>
-    <lastmod>2024-07-16</lastmod>
+    <loc>https://dadesso.cloudns.ch/apropos.html</loc>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
