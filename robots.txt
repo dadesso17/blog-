@@ -1,3 +1,7 @@
 User-agent: *
 Disallow: /private.html  # Exclure la page privée du référencement
+Disallow: /avis.html
+Disallow: /competences.html
+Disallow: /projets.html
+
 Sitemap: https://dadesso.cloudns.ch/sitemap.xml
