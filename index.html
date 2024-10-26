@@ -1,191 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Charset and viewport for mobile responsiveness -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dadoyi Dadesso - Professionnel en Cybersécurité et Intelligence Artificielle | Portfolio et Services</title>
+    <title>Dadoyi Dadesso - Cybersécurité & IA | Portfolio et Services</title>
     <meta name="description" content="Découvrez le portfolio de Dadoyi Dadesso, professionnel en cybersécurité et intelligence artificielle. Explorez mes compétences, projets, et solutions de sécurité pour entreprises. Contactez-moi pour collaborer !">
-    <meta name="keywords" content="dadesso,dadoyi, dadesso dadoyi, dadoyi dadesso, cybersécurité, intelligence artificielle, portfolio, sécurité informatique, solutions informatiques, réseaux, développement, machine learning, deep learning">
+    <meta name="keywords" content="dadesso, cybersécurité, intelligence artificielle, portfolio, sécurité informatique, solutions, machine learning, deep learning">
+
+    <!-- Open Graph metadata for social sharing -->
     <meta property="og:title" content="Dadoyi Dadesso - Professionnel en Cybersécurité et Intelligence Artificielle">
-    <meta property="og:description" content="Découvrez le portfolio de Dadoyi Dadesso, un expert en cybersécurité et intelligence artificielle, offrant des solutions innovantes pour protéger vos systèmes.">
-    <meta property="og:image" content="https://dadesso.cloudns.ch/image/dad.jpg"> <!-- Replace with a relevant image URL -->
-    <meta property="og:image:width" content="1200">
-     <meta property="og:image:height" content="630">
+    <meta property="og:description" content="Découvrez le portfolio de Dadoyi Dadesso, expert en cybersécurité et intelligence artificielle, offrant des solutions innovantes pour protéger vos systèmes.">
+    <meta property="og:image" content="https://dadesso.cloudns.ch/image/dad.jpg">
     <meta property="og:type" content="website">
-
     <meta property="og:url" content="https://dadesso.cloudns.ch/">
-        <link rel="canonical" href="https://dadesso.cloudns.ch/">
+    
+    <!-- Canonical link for SEO -->
+    <link rel="canonical" href="https://dadesso.cloudns.ch/">
 
+    <!-- Bootstrap for responsive layout -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    
-    <!-- Structured Data: Personal Portfolio Schema -->
-    <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "name": "Dadoyi Dadesso",
-  "jobTitle": "Professionnel en Cybersécurité et Intelligence Artificielle",
-  "description": "Dadoyi Dadesso, spécialisé en cybersécurité et solutions d'intelligence artificielle pour entreprises.",
-  "url": "https://dadesso.cloudns.ch/",
-  "image": "https://www.cogitis.fr/wp-content/uploads/2022/10/cybersecurity-web.jpg",
-  "sameAs": [
-    "https://www.linkedin.com/in/dadoyi-dadesso"
-  ]
-}
-</script>
 
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Dadoyi Dadesso",
+        "jobTitle": "Professionnel en Cybersécurité et Intelligence Artificielle",
+        "description": "Dadoyi Dadesso, spécialisé en cybersécurité et solutions d'intelligence artificielle pour entreprises.",
+        "url": "https://dadesso.cloudns.ch/",
+        "image": "https://www.cogitis.fr/wp-content/uploads/2022/10/cybersecurity-web.jpg",
+        "sameAs": ["https://www.linkedin.com/in/dadoyi-dadesso"]
+    }
+    </script>
 </head>
+
 <body>
+    <!-- Header with responsive navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="https://dadesso.cloudns.ch/">
+                    <img src="image/dad.jpg" alt="Dadoyi Dadesso - Logo" class="rotate-image" style="width: 50px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a href="https://dadesso.cloudns.ch/">
-                        <img src="image/dad.jpg" alt="Dadoyi Dadesso - Logo de l'entreprise" class="rotate-image">
-                    </a>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projets.html">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Blog/index.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="avis.html">Témoignages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="competences.html">Compétences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="private.html">Private</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="apropos.html">À propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="university.html">dadesso&campus</a>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projets.html">Projets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Blog/index.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="avis.html">Témoignages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="competences.html">Compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="apropos.html">À propos</a></li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!-- Main content with optimized sections and accessibility improvements -->
     <main>
-        <!-- Animated Background Images Section -->
-        <section class="background-scroll">
-            <div class="bg-image" style="background-image: url('image/dad.jpg');" aria-hidden="true"></div>
-            <div class="bg-image" style="background-image: url('image/lume2.jpg');" aria-hidden="true"></div>
-            <div class="bg-image" style="background-image: url('image/lume3.jpg');" aria-hidden="true"></div>
-            <div class="bg-image" style="background-image: url('image/lume1.jpg');" aria-hidden="true"></div>
-            <div class="bg-image" style="background-image: url('image/lume4.jpg');" aria-hidden="true"></div>
-            <div class="bg-image" style="background-image: url('image/imagsec.png');" aria-hidden="true"></div>
-            <div class="bg-image" style="background-image: url('image/lume.png');" aria-hidden="true"></div>
-        </section>
-
-        <!-- Introduction Section with H1 and SEO-optimized text -->
-        <section id="introduction">
+        <!-- Introduction Section -->
+        <section id="introduction" class="text-center p-5 bg-light">
             <h1>Bienvenue sur le portfolio de Dadoyi Dadesso, Professionnel en Cybersécurité et Intelligence Artificielle</h1>
-            <p>En tant que professionnel expérimenté en cybersécurité, intelligence artificielle, et informatique, je propose des solutions pour protéger les infrastructures et réseaux informatiques. Découvrez mes projets de cybersécurité, mes compétences en sécurité informatique et mes solutions pour les entreprises.</p>
+            <p>Je propose des solutions pour protéger les infrastructures et réseaux informatiques. Découvrez mes projets de cybersécurité, mes compétences en sécurité informatique et mes solutions pour les entreprises.</p>
         </section>
 
-        <!-- Additional SEO-optimized H2 headings -->
-        <section id="mes-projets">
-            <h2>Mes Projets en Cybersécurité et IT</h2>
-            <p>Explorez les projets récents que j’ai réalisés, incluant des solutions de cybersécurité et de maintenance des réseaux pour divers clients.</p>
+        <!-- Projects Section -->
+        <section id="mes-projets" class="container p-5">
+            <h2 class="text-center">Mes Projets en Cybersécurité et IT</h2>
+            <p>Explorez mes projets récents, incluant des solutions de cybersécurité et de maintenance des réseaux pour divers clients.</p>
         </section>
         
-        <section id="mes-competences">
-            <h2>Mes Compétences</h2>
-            <ul>
-                <li>Développement</li>
-                <li>Cybersécurité</li>
-                <li>Virtualisation</li>
-                <li>Sécurité Cloud & Réseaux</li>
-                <li>Bureautique</li>
-                <li>Réseaux</li>
-                <li>Bases de données</li>
-                <li>Infrastructure</li>
-                <li>Machine learning</li>
-                <li>Deep learning</li>
-                <li>Intelligence artificielle</li>
+        <!-- Competencies Section -->
+        <section id="mes-competences" class="container p-5">
+            <h2 class="text-center">Mes Compétences</h2>
+            <ul class="row list-unstyled">
+                <li class="col-6 col-md-3">Développement</li>
+                <li class="col-6 col-md-3">Cybersécurité</li>
+                <li class="col-6 col-md-3">Virtualisation</li>
+                <li class="col-6 col-md-3">Sécurité Cloud & Réseaux</li>
+                <li class="col-6 col-md-3">Bureautique</li>
+                <li class="col-6 col-md-3">Réseaux</li>
+                <li class="col-6 col-md-3">Bases de données</li>
+                <li class="col-6 col-md-3">Infrastructure</li>
+                <li class="col-6 col-md-3">Machine learning</li>
+                <li class="col-6 col-md-3">Deep learning</li>
+                <li class="col-6 col-md-3">Intelligence artificielle</li>
             </ul>
         </section>
 
-        <section id="solutions">
-            <h2>Solutions de Cybersécurité et Support Informatique</h2>
+        <!-- Solutions Section -->
+        <section id="solutions" class="container p-5 bg-light">
+            <h2 class="text-center">Solutions de Cybersécurité et Support Informatique</h2>
             <p>Mes services couvrent la réponse aux incidents, la sécurisation des infrastructures et l'enquête judiciaire numérique pour garantir la sécurité et l’intégrité des données de votre entreprise.</p>
         </section>
     </main>
 
-    <footer>
-        <div class="footer-container">
-            <div class="footer-left">
-                <img src="image/image1.png" alt="logo_security" class="footer-logo">
-                <p>© Dadoyi Dadesso - Tous droits réservés</p>
-                <p>
-                    <a href="#">Conditions Générales d'Utilisation</a> | 
-                    <a href="#">Mentions Légales</a> | 
-                    <a href="#">Politique de confidentialité</a>
-                </p>
-            </div>
-            <div class="footer-middle">
-                <div class="footer-section">
-                    <h4>Mes compétences</h4>
-                    <ul>
+    <!-- Footer with accessible layout and mobile-friendly design -->
+    <footer class="bg-dark text-white pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <!-- Left Section with Logo and Links -->
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="image/image1.png" alt="Logo sécurité" class="footer-logo mb-2" style="width: 50px;">
+                    <p>© Dadoyi Dadesso - Tous droits réservés</p>
+                    <p><a href="#" class="text-white">Conditions Générales d'Utilisation</a> | <a href="#" class="text-white">Mentions Légales</a> | <a href="#" class="text-white">Politique de confidentialité</a></p>
+                </div>
+
+                <!-- Middle Section with Skills -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h4>Mes Compétences</h4>
+                    <ul class="list-unstyled">
                         <li>Développement</li>
                         <li>Cybersécurité</li>
-                        <li>Virtualisation</li>
                         <li>Sécurité Cloud & Réseaux</li>
-                        <li>Bureautique</li>
-                        <li>Réseaux</li>
-                        <li>Bases de données</li>
-                        <li>Infrastructure</li>
                         <li>Machine learning</li>
-                        <li>Deep learning</li>
-                        <li>Intelligence artificielle</li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h4>Solutions</h4>
-                    <ul>
-                        <li>Vecteurs d'attaque</li>
-                        <li>Réponse aux incidents</li>
-                        <li>Enquête judiciaire</li>
-                        <li>Audit de sécurité</li>
-                        <li>Formation en sécurité</li>
-                    </ul>
+
+                <!-- Contact Information -->
+                <div class="col-lg-4 col-md-6">
+                    <h4>Contact</h4>
+                    <p>N'hésitez pas à me contacter via la page de contact pour toute demande d’information.</p>
                 </div>
-                <div class="footer-section">
-                    <h4>Liens utiles</h4>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/dadoyi-dadesso">LinkedIn</a></li>
-                        <li><a href="https://twitter.com/dadoyi">Twitter</a></li>
-                        <li><a href="https://github.com/dadesso">GitHub</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-right">
-                <h4>Contact</h4>
-                <p>Pour toute question ou demande, n'hésitez pas à me contacter via le formulaire sur la page de contact.</p>
             </div>
         </div>
     </footer>
 
+    <!-- Bootstrap Bundle with Popper.js for interactive elements -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ZuZADfomAV8QIFRlUgboNZi6Q2GJouV0ERFfF7lNLzqq9OQ0gjfGJqftQ0ZzKzjA" crossorigin="anonymous"></script>
 </body>
 </html>
