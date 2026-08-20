@@ -4,4 +4,4 @@ Disallow: /avis.html
 Disallow: /competences.html
 Disallow: /projets.html
 
-Sitemap: https://dadesso.cloudns.ch/sitemap.xml
+Sitemap: https://wc2si.com/sitemap.xml
